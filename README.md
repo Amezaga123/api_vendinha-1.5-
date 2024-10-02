@@ -1,10 +1,6 @@
-# api_vendinha-1.5-
-atualização da api_vendinha
+localhost:8081/h2-console/login.jsp
 
 USER METHOD
-
-http://localhost:8081/api/usuario
-
 
 {
     "name" : "José",
@@ -14,9 +10,13 @@ http://localhost:8081/api/usuario
     "is_active" : "True"
 }
 
+http://localhost:8081/api/usuario
+
 PRODUTOS METHOD
+
 {
     "id": 1,
+    "user_id": 1,
     "nome": "pera",
     "quantidade": 5,
     "preco": 7.0
@@ -26,10 +26,11 @@ http://localhost:8081/api/produtos
 
 
 PEDIDO METHOD
+
 {
     "userId": 1,
     "productId": 1,
     "quantity": 2
 }
 
-http://localhost:8081/api/produtos
+http://localhost:8081/api/pedido
